@@ -1,7 +1,8 @@
 # ---------------------------------------------
 #  Základní počítání (+ - * /)
 # ---------------------------------------------
-# Python počítá jako kalkulačka. Spusť soubor a sleduj výsledky.
+# Vypisovat už umíme – teď zkusíme, že Python počítá jako kalkulačka.
+# Spusť soubor a sleduj výsledky.
 
 
 # Sčítání a odčítání
@@ -19,5 +20,9 @@ print(20 / 4)
 
 # Dělení může vyjít desetinné.
 # Desetinná čárka se v Pythonu píše jako tečka.
-print(10 / 3)
 print(10 - 2.2)
+
+
+# Někdy vyjde hodně dlouhé desetinné číslo – to je v pořádku,
+# Python jen ukazuje výsledek co nejpřesněji.
+print(10 / 3)

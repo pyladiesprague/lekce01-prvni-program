@@ -3,8 +3,9 @@
 # ---------------------------------------------
 # Spusť soubor a sleduj, co se vypíše.
 #
-# Proměnná je pojmenovaná „krabička", do které si uložíš hodnotu
-# a později ji použiješ pod jejím jménem.
+# Zatím jsme čísla a text psali pořád dokola. Proměnná je
+# pojmenovaná „krabička", do které si hodnotu uložíš a pak ji
+# používáš pod jejím jménem – ať ji máš po ruce.
 #
 # Zapisuje se takhle:  jmeno = hodnota
 # (napíšeš jméno, rovnítko a za něj hodnotu)
@@ -25,14 +26,15 @@ jmeno = "Petra"
 print(jmeno)
 
 
-# Mimochodem – text za znakem # je komentář.
-# Python ho ignoruje, slouží jenom nám lidem jako poznámka.
-
-
 # Jak proměnné pojmenovávat:
 #   - malými písmeny
+#   - jméno začíná písmenem (ne číslem)
 #   - bez mezer (víc slov spoj podtržítkem: oblibena_barva)
 #   - výstižně, ať víš, co v proměnné je (mesto, cena, pocet...)
 mesto = "Praha"
 oblibena_barva = "modrá"
 print(mesto, oblibena_barva)
+
+
+# Mimochodem – text za znakem # (jako tyhle řádky) je komentář.
+# Python ho ignoruje, slouží jenom nám lidem jako poznámka.

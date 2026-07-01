@@ -24,10 +24,8 @@ vek = int(input("Kolik ti je let? "))
 print("Za 10 let ti bude", vek + 10)
 
 
-# 5) Napiš krátký program, který se zeptá na jméno a pak vypíše
-#    dva řádky:
-#    Ahoj, <jmeno>
-#    Vítej v Pythonu!
+# 5) Napiš program, který se zeptá na jméno a na věk (převeď na číslo)
+#    a vypíše větu: Ahoj <jmeno>, za rok ti bude <věk + 1> let.
 jmeno = input("Jak se jmenuješ? ")
-print("Ahoj,", jmeno)
-print("Vítej v Pythonu!")
+vek = int(input("Kolik ti je let? "))
+print("Ahoj,", jmeno, "- za rok ti bude", vek + 1, "let")

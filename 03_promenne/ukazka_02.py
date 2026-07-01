@@ -24,7 +24,7 @@ print("Součet je", a + b)
 # Příklad se čtvercem: stranu zadáme jen jednou do proměnné.
 strana = 123
 print("Obvod čtverce se stranou", strana, "je", 4 * strana, "cm")
-print("Obsah čtverce se stranou", strana, "je", strana * strana, "cm2")
+print("Obsah čtverce se stranou", strana, "je", strana * strana, "cm²")
 
 # Kdybychom chtěli jiný čtverec, stačí změnit jen řádek strana = ...
 # a oba výpočty se přepočítají samy.

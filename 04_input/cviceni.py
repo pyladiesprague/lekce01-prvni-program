@@ -22,7 +22,5 @@
 
 
 
-# 5) Napiš krátký program, který se zeptá na jméno a pak vypíše
-#    dva řádky:
-#    Ahoj, <jmeno>
-#    Vítej v Pythonu!
+# 5) Napiš program, který se zeptá na jméno a na věk (převeď na číslo)
+#    a vypíše větu: Ahoj <jmeno>, za rok ti bude <věk + 1> let.

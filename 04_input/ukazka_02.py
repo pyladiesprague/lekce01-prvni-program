@@ -3,20 +3,31 @@
 # ---------------------------------------------
 # Pozor na důležitou věc: cokoliv uživatel napíše, input vrátí
 # jako TEXT – i když to vypadá jako číslo.
-#
-# Když chceš se vstupem počítat, musíš ho nejdřív převést na číslo.
-# Spusť soubor a vyzkoušej.
+# Spusť soubor a uvidíš, proč na tom záleží.
 
 
-# int(...) převede text na celé číslo:
-vek = int(input("Kolik ti je let? "))
+# Zeptáme se na věk. To, co dostaneme, je text (třeba "30").
+vek = input("Kolik ti je let? ")
+
+# Kdybychom teď chtěli přičíst 1, program by SPADL s chybou –
+# k textu se totiž číslo přičíst nedá.
+# Zkus si to: odkomentuj řádek níž a spusť soubor.
+# print("Za rok ti bude", vek + 1)
+
+
+# Řešení: text převedeme na číslo pomocí funkce int().
+# Uděláme to ve dvou krocích, ať je vidět, co se děje:
+vek_text = input("Kolik ti je let? ")   # text, třeba "30"
+vek = int(vek_text)                      # převedeno na číslo 30
 print("Za rok ti bude", vek + 1)
 
 
-# float(...) převede text na desetinné číslo:
+# Zkráceně se to samé píše rovnou na jeden řádek (int okolo inputu):
+#   vek = int(input("Kolik ti je let? "))
+
+
+# Pro desetinná čísla se používá float():
 strana = float(input("Zadej stranu čtverce v cm: "))
 print("Obvod čtverce je", 4 * strana, "cm")
 
-
-# Kdybychom int(...) / float(...) vynechali, byl by vek text
-# a vek + 1 by skončilo chybou – k textu se číslo přičíst nedá.
+# Pozn.: desetinná čísla se vypisují s tečkou, takže třeba 12.0.

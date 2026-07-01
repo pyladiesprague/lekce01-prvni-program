@@ -1,7 +1,9 @@
 # ---------------------------------------------
 #  Další operátory (// % **)
 # ---------------------------------------------
-# Kromě + - * / má Python i pár šikovných operátorů navíc.
+# Kromě + - * / má Python i pár operátorů navíc.
+# Teď je jen potkáme a vyzkoušíme – pořádně se nám budou hodit
+# později (třeba u cyklů). Když ti hned nedojde, k čemu jsou, nevadí.
 # Spusť soubor a sleduj výsledky.
 
 
