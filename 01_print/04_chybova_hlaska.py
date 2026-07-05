@@ -14,7 +14,7 @@ print(Máma má mísu)
 
 # V terminálu uvidíš něco podobného:
 #
-#   File "ukazka_04.py", line 12
+#   File "04_chybova_hlaska.py", line 12
 #       print(Máma má mísu)
 #                  ^^^
 #   SyntaxError: invalid syntax
@@ -26,7 +26,7 @@ print(Máma má mísu)
 #
 # Jak to opravit?
 # Dej text do uvozovek:  print("Máma má mísu")
-# a spusť soubor znovu. Chyba zmizí. 🎉
+# a spusť soubor znovu. Chyba zmizí. 
 #
 # Chybovým hláškám se budeme víc věnovat později. Teď stačí vědět,
 # že jsou normální a že se dají přečíst.
