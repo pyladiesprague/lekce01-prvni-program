@@ -3,6 +3,9 @@
 # ---------------------------------------------
 # Spusť soubor ve VS Code (tlačítko Run) a sleduj terminál dole.
 #
+# Mimochodem – řádky, které začínají znakem #, jsou komentáře.
+# Python je ignoruje, slouží jenom nám lidem jako poznámky.
+#
 # Co je print?
 # print je funkce, která vypíše na obrazovku to, co jí zadáš.
 # Je to náš hlavní způsob, jak si ukázat, co program dělá –

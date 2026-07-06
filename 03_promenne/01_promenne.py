@@ -34,7 +34,3 @@ print(jmeno)
 mesto = "Praha"
 oblibena_barva = "modrá"
 print(mesto, oblibena_barva)
-
-
-# Mimochodem – text za znakem # (jako tyhle řádky) je komentář.
-# Python ho ignoruje, slouží jenom nám lidem jako poznámka.
